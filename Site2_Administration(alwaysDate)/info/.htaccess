@@ -1,0 +1,6 @@
+# MAINTENANCE-PAGE REDIRECT
+<FilesMatch ".(csv)$">
+Order allow,deny
+Deny from all
+
+</FilesMatch>

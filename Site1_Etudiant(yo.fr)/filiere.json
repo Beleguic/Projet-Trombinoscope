@@ -1,0 +1,53 @@
+{
+    "listeFilieres":[
+
+        {
+            "nomFiliere":"LPI-RIWS",
+            "groupes":[
+                "LPI-1",
+                "LPI-2",
+                "LPI-3"
+            ]
+        },
+
+        {
+            "nomFiliere":"LP-RS",
+            "groupes":[
+                "LP-1",
+                "LP-2",
+                "LP-3"
+            ]
+        },
+
+        {
+            "nomFiliere":"L1-MIPI",
+            "groupes":[
+                "A1",
+                "B2",
+                "C3",
+			"D4"
+            ]
+        },  
+
+        {
+            "nomFiliere":"L2-MI",
+            "groupes":[
+                "A1",
+                "B2",
+                "C3",
+			"D4"
+            ]
+	   },
+
+        {
+            "nomFiliere":"L3-I",
+            "groupes":[
+                "A1",
+                "B2",
+                "C3",
+			"D4"
+            ]
+	  }
+    ]
+    
+}

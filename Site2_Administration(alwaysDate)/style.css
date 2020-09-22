@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap%27%27');
+
+.divEleve{
+
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	width: 180px;
+	height: 225px;
+	margin-right: 5px;  
+
+}
+
+.image{
+
+	width: 100%;
+	height: 80%;
+
+}
+
+.mosaique{
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: auto;
+
+}
+
+.cacher{
+	display: none;
+}
+
+p{
+
+	font-family: 'Poppins', sans-serif;
+	font-size: 80%;
+
+}
+
+h1{
+
+	font-family: 'Poppins', sans-serif;
+	font-size: 200%;
+	text-align: center;
+	justify-content: center;
+
+
+}
+
+#divInfoEleve{
+
+	display: none;
+	position: sticky;
+	bottom: 0px;
+	width: 100%;
+	background-color: white;
+	border-left: solid;
+	border-right: solid;
+	border-top: solid;
+	border-width: 2px;
+	margin: auto;
+	font-size: 150%;
+
+
+}
+
+
+.divColone{
+
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	text-align: left;
+	margin-top: 1.5%;
+}
+
+.divRow{
+
+	margin-left: 12%;
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	text-align: left;
+
+}
+
+.infoStud{
+
+	padding: 15px;
+	text-align: left;
+
+
+}
+
+footer{
+
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	padding: 20px 0px;
+	border-top: solid; 
+	font-size: 150%;
+	text-align: center;
+	margin-top: 20px; 
+
+
+}
+
+
+
+.divTitre{
+
+	margin-top: 20px;
+
+}
+
+
+#divInfoEleve2{
+
+	display: block;
+	position: sticky;
+	bottom: 0px;
+	width: 60%;
+	margin: auto;
+	margin-bottom: -20px; 
+
+}
+/*input[type=submit] {
+	background-color: #4169E1;
+  	color: white;
+  	width: 100%;
+  	padding: 14px 20px;
+  	margin: 8px 0;
+  	border: none;
+  	border-radius: 80px;
+  	cursor: pointer;
+  	font-family: 'Poppins', sans-serif;
+}
+
+input[type=submit]:hover {
+  	background-color: #1e47c1;
+}
+*/
+
+input[type=button] {
+	background-color: #4169E1;
+  	color: white;
+  	padding: 14px 20px;
+  	margin: 8px 0;
+  	border: none;
+  	border-radius: 80px;
+  	cursor: pointer;
+  	font-family: 'Poppins', sans-serif;
+  	font-size: 110%;
+}
+
+input[type=button]:hover {
+  	background-color: #1e47c1;
+}
+
+button{
+
+	background-color: #4169E1;
+  	color: white;
+  	font-size: 115%;
+  	padding: 14px 20px;
+  	margin: 8px 0;
+  	border: none;
+  	border-radius: 80px;
+  	font-family: 'Poppins', sans-serif;
+  	cursor: pointer;
+
+}
+
+button:hover{
+
+  	background-color: #1e47c1;
+}
+
+input{
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 80px;
+
+}
+
+input:focus{
+	border: 3px solid #555;
+}
+
+.divInsCon{
+	display: flex;
+	flex-direction: column;
+	margin-top: 15px;
+
+
+}
+
+form{
+
+	width: 35%;
+	margin: auto;
+}
+
+.lien{
+
+	color: black;
+	text-align: center;
+	font-size: 100%;
+	text-decoration: underline;
+	font-family: 'Poppins', sans-serif;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+
+#FormConnexionText, #FormInscriptionText{
+
+	font-size: 350%;
+
+
+}
+
+.InfoForm{
+
+	text-align: center;
+
+}
+
+.divColoneIns{
+
+	display: flex;
+	flex-direction: column;
+	width: 49%;
+	
+
+
+}
+
+#decal{
+
+	margin-left: 2%; 
+}
+
+.divRowIns{
+
+	display: flex;
+	flex-direction: row;
+
+}
+
+label{
+	margin-top: 15px;
+	margin-bottom: 5px;
+	font-size: 100%;
+	font-family: 'Poppins', sans-serif;
+}
+
+select{
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 80px;
+}
+
+#divHeader3{
+
+	width: 25%;
+
+}
+
+header{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+
+}
+
+.boutonCo{
+
+	margin-left: 20px;
+	padding: 20px;
+	margin-top: 40px;
+
+}
+
+.ErrorIns{
+
+	color: red;
+	display: block;
+	text-align: center;	
+	margin-top: 15px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 150%;
+}
+
+header{
+
+	border-bottom: solid 2px;
+	
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+
+}
+
+#titreHeader{
+
+	width: 64%;
+	text-align: center;
+
+}
+
+#boutonDroiteHeader{
+
+	width: 18%;
+	margin: auto;
+	text-align: center;
+	justify-content: center;
+
+}
+
+#imageHeader{
+
+	width: 18%;
+	margin: auto;
+	text-align: left;
+}
+
+#titreH1Header{
+
+	margin-top: 17px;
+	font-size: 350%;
+	font-family: 'Poppins', sans-serif;
+
+
+}
+
+#BoutonImpression{
+
+	text-align: center;
+	justify-content: center;
+	margin: auto;
+
+}
+
+#errorAPI{
+
+	font-size: 400%;
+	justify-content: center;
+	text-align: center;
+	margin: 100px;
+
+
+}

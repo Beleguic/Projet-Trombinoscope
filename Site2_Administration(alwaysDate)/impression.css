@@ -1,0 +1,79 @@
+@media print{
+
+	.divEleve{
+
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		justify-content: center;
+		width: 1.90cm;
+		height: 2.60cm;
+		margin-right: 1mm;
+
+
+	}
+
+	.image{
+
+		width: 1.90cm;
+		height: 1.90cm;
+
+	}
+
+	.mosaique{
+
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin: auto;
+		border-bottom: solid;
+		border-width: 1px; 
+		
+
+	}
+
+	p{
+		
+		font-size: 50%;
+		text-align: center;
+		
+
+	}
+
+
+
+	.nomPrenom{
+		width: 1.90cm;
+		height: 0.70cm;
+		overflow: hidden;
+		text-overflow: ellipsis; 
+		margin-top: 1mm;
+	}
+
+	h1{
+
+		font-size: 100%;
+		margin-bottom: -0px;
+		text-align: center;
+		justify-content: center;
+		page-break-before: always;
+
+
+	}
+
+	.cacher{
+		width: 100%;
+		margin-bottom: 1.5cm;
+	}
+
+	
+	#infoTrombi, #divInfoEleve2, footer, #BoutonImpression, header{
+		display: none;
+	}
+
+	.divTitre{
+		margin-bottom: 2mm;
+
+	}
+
+}

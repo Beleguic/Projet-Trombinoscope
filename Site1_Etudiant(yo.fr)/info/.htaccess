@@ -1,0 +1,6 @@
+# MAINTENANCE-PAGE REDIRECT
+<FilesMatch ".(csv|json)$">
+Order allow,deny
+Deny from all
+
+</FilesMatch>
